@@ -20,7 +20,7 @@ app.add_middleware(
 @app.get("/")
 def read_root( q: Union[str, None] = None):
     try:
-        data = yf.Ticker(q).history(period='1y')
+        data = yf.Ticker(q).history(period='1y').reset_index()
         return data.to_dict('records')
     except:
         return  HTMLResponse(content=html_content)
