@@ -2,6 +2,8 @@
 
 This repository provides a backend built with FastAPI and Python 3, integrating the `yfinance` library to fetch historical stock data. The API allows users to retrieve one-year historical stock data for a given ticker symbol.
 
+Deployment Link: [https://stock-history-api.onrender.com](https://stock-history-api.onrender.com)
+
 ## Features
 
 - **FastAPI**: High-performance, modern web framework for building APIs.
