@@ -6,9 +6,11 @@ charset-normalizer==3.4.1
 click==8.1.8
 dnspython==2.7.0
 email_validator==2.2.0
+et_xmlfile==2.0.0
 fastapi==0.115.6
 fastapi-cli==0.0.7
 frozendict==2.4.6
+gannpy==0.1.12
 h11==0.14.0
 html5lib==1.1
 httpcore==1.0.7
@@ -22,6 +24,7 @@ MarkupSafe==3.0.2
 mdurl==0.1.2
 multitasking==0.0.11
 numpy==2.2.1
+openpyxl==3.1.5
 pandas==2.2.3
 peewee==3.17.8
 platformdirs==4.3.6
