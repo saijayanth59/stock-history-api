@@ -40,7 +40,7 @@ async def gann_csv(
 
 
     df = pd.DataFrame(result)
-    df = df[["date", "buy_above", "sell_below", "tradeType", "entry", "entryTime", "exit", "exitTime", "stopLoss", "stopLossTime","level", "buy_target", "sell_target"]]
+    df = df[["date", "buy_above", "sell_below", "tradeType", "entry", "entryTime", "exit", "exitTime", "stopLoss", "stopLossTime","level", "buy_target", "sell_target", "S1", "S2", "S3", "S4", "S5", "B1", "B2", "B3", "B4", "B5"]]
 
 
     output = BytesIO()
