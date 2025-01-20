@@ -1,5 +1,5 @@
-from typing import Union
-from fastapi import FastAPI, Form
+from typing import Union, List
+from fastapi import FastAPI, Form, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, StreamingResponse
 from io import BytesIO
