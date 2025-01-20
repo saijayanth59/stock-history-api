@@ -65,7 +65,7 @@ async def combine_csv(
         for file in files:
             dfs.append(pd.read_csv(BytesIO(await file.read())))   
         df = combine_data(dfs)
-        processed_data = preprocess_data(combined_df)
+        processed_data = preprocess_data(df)
         result = test(processed_data)
 
         result_df = pd.DataFrame(result)
